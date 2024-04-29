@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344533A92BDFED85001CA334 /* myfirstiosappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344533A82BDFED85001CA334 /* myfirstiosappApp.swift */; };
+		344533AB2BDFED85001CA334 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344533AA2BDFED85001CA334 /* ContentView.swift */; };
+		344533AD2BDFED87001CA334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344533AC2BDFED87001CA334 /* Assets.xcassets */; };
+		344533B02BDFED87001CA334 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344533AF2BDFED87001CA334 /* Preview Assets.xcassets */; };
+		344533BA2BDFED88001CA334 /* myfirstiosappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344533B92BDFED88001CA334 /* myfirstiosappTests.swift */; };
+		344533C42BDFED88001CA334 /* myfirstiosappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344533C32BDFED88001CA334 /* myfirstiosappUITests.swift */; };
+		344533C62BDFED88001CA334 /* myfirstiosappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344533C52BDFED88001CA334 /* myfirstiosappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		344533B62BDFED88001CA334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3445339D2BDFED85001CA334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344533A42BDFED85001CA334;
+			remoteInfo = myfirstiosapp;
+		};
+		344533C02BDFED88001CA334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3445339D2BDFED85001CA334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 344533A42BDFED85001CA334;
+			remoteInfo = myfirstiosapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		344533A52BDFED85001CA334 /* myfirstiosapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myfirstiosapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		344533A82BDFED85001CA334 /* myfirstiosappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstiosappApp.swift; sourceTree = "<group>"; };
+		344533AA2BDFED85001CA334 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		344533AC2BDFED87001CA334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		344533AF2BDFED87001CA334 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		344533B52BDFED88001CA334 /* myfirstiosappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfirstiosappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		344533B92BDFED88001CA334 /* myfirstiosappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstiosappTests.swift; sourceTree = "<group>"; };
+		344533BF2BDFED88001CA334 /* myfirstiosappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfirstiosappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		344533C32BDFED88001CA334 /* myfirstiosappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstiosappUITests.swift; sourceTree = "<group>"; };
+		344533C52BDFED88001CA334 /* myfirstiosappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstiosappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344533A22BDFED85001CA334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344533B22BDFED88001CA334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344533BC2BDFED88001CA334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3445339C2BDFED85001CA334 = {
+			isa = PBXGroup;
+			children = (
+				344533A72BDFED85001CA334 /* myfirstiosapp */,
+				344533B82BDFED88001CA334 /* myfirstiosappTests */,
+				344533C22BDFED88001CA334 /* myfirstiosappUITests */,
+				344533A62BDFED85001CA334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		344533A62BDFED85001CA334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				344533A52BDFED85001CA334 /* myfirstiosapp.app */,
+				344533B52BDFED88001CA334 /* myfirstiosappTests.xctest */,
+				344533BF2BDFED88001CA334 /* myfirstiosappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		344533A72BDFED85001CA334 /* myfirstiosapp */ = {
+			isa = PBXGroup;
+			children = (
+				344533A82BDFED85001CA334 /* myfirstiosappApp.swift */,
+				344533AA2BDFED85001CA334 /* ContentView.swift */,
+				344533AC2BDFED87001CA334 /* Assets.xcassets */,
+				344533AE2BDFED87001CA334 /* Preview Content */,
+			);
+			path = myfirstiosapp;
+			sourceTree = "<group>";
+		};
+		344533AE2BDFED87001CA334 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				344533AF2BDFED87001CA334 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		344533B82BDFED88001CA334 /* myfirstiosappTests */ = {
+			isa = PBXGroup;
+			children = (
+				344533B92BDFED88001CA334 /* myfirstiosappTests.swift */,
+			);
+			path = myfirstiosappTests;
+			sourceTree = "<group>";
+		};
+		344533C22BDFED88001CA334 /* myfirstiosappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				344533C32BDFED88001CA334 /* myfirstiosappUITests.swift */,
+				344533C52BDFED88001CA334 /* myfirstiosappUITestsLaunchTests.swift */,
+			);
+			path = myfirstiosappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		344533A42BDFED85001CA334 /* myfirstiosapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344533C92BDFED88001CA334 /* Build configuration list for PBXNativeTarget "myfirstiosapp" */;
+			buildPhases = (
+				344533A12BDFED85001CA334 /* Sources */,
+				344533A22BDFED85001CA334 /* Frameworks */,
+				344533A32BDFED85001CA334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myfirstiosapp;
+			productName = myfirstiosapp;
+			productReference = 344533A52BDFED85001CA334 /* myfirstiosapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		344533B42BDFED88001CA334 /* myfirstiosappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344533CC2BDFED88001CA334 /* Build configuration list for PBXNativeTarget "myfirstiosappTests" */;
+			buildPhases = (
+				344533B12BDFED88001CA334 /* Sources */,
+				344533B22BDFED88001CA334 /* Frameworks */,
+				344533B32BDFED88001CA334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344533B72BDFED88001CA334 /* PBXTargetDependency */,
+			);
+			name = myfirstiosappTests;
+			productName = myfirstiosappTests;
+			productReference = 344533B52BDFED88001CA334 /* myfirstiosappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		344533BE2BDFED88001CA334 /* myfirstiosappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 344533CF2BDFED88001CA334 /* Build configuration list for PBXNativeTarget "myfirstiosappUITests" */;
+			buildPhases = (
+				344533BB2BDFED88001CA334 /* Sources */,
+				344533BC2BDFED88001CA334 /* Frameworks */,
+				344533BD2BDFED88001CA334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				344533C12BDFED88001CA334 /* PBXTargetDependency */,
+			);
+			name = myfirstiosappUITests;
+			productName = myfirstiosappUITests;
+			productReference = 344533BF2BDFED88001CA334 /* myfirstiosappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3445339D2BDFED85001CA334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					344533A42BDFED85001CA334 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					344533B42BDFED88001CA334 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 344533A42BDFED85001CA334;
+					};
+					344533BE2BDFED88001CA334 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 344533A42BDFED85001CA334;
+					};
+				};
+			};
+			buildConfigurationList = 344533A02BDFED85001CA334 /* Build configuration list for PBXProject "myfirstiosapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3445339C2BDFED85001CA334;
+			productRefGroup = 344533A62BDFED85001CA334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				344533A42BDFED85001CA334 /* myfirstiosapp */,
+				344533B42BDFED88001CA334 /* myfirstiosappTests */,
+				344533BE2BDFED88001CA334 /* myfirstiosappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		344533A32BDFED85001CA334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344533B02BDFED87001CA334 /* Preview Assets.xcassets in Resources */,
+				344533AD2BDFED87001CA334 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344533B32BDFED88001CA334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344533BD2BDFED88001CA334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344533A12BDFED85001CA334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344533AB2BDFED85001CA334 /* ContentView.swift in Sources */,
+				344533A92BDFED85001CA334 /* myfirstiosappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344533B12BDFED88001CA334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344533BA2BDFED88001CA334 /* myfirstiosappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344533BB2BDFED88001CA334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344533C42BDFED88001CA334 /* myfirstiosappUITests.swift in Sources */,
+				344533C62BDFED88001CA334 /* myfirstiosappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		344533B72BDFED88001CA334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344533A42BDFED85001CA334 /* myfirstiosapp */;
+			targetProxy = 344533B62BDFED88001CA334 /* PBXContainerItemProxy */;
+		};
+		344533C12BDFED88001CA334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 344533A42BDFED85001CA334 /* myfirstiosapp */;
+			targetProxy = 344533C02BDFED88001CA334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		344533C72BDFED88001CA334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		344533C82BDFED88001CA334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		344533CA2BDFED88001CA334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"myfirstiosapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranmatin.myfirstiosapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		344533CB2BDFED88001CA334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"myfirstiosapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranmatin.myfirstiosapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		344533CD2BDFED88001CA334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranmatin.myfirstiosappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myfirstiosapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myfirstiosapp";
+			};
+			name = Debug;
+		};
+		344533CE2BDFED88001CA334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranmatin.myfirstiosappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myfirstiosapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myfirstiosapp";
+			};
+			name = Release;
+		};
+		344533D02BDFED88001CA334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranmatin.myfirstiosappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myfirstiosapp;
+			};
+			name = Debug;
+		};
+		344533D12BDFED88001CA334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranmatin.myfirstiosappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myfirstiosapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		344533A02BDFED85001CA334 /* Build configuration list for PBXProject "myfirstiosapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344533C72BDFED88001CA334 /* Debug */,
+				344533C82BDFED88001CA334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344533C92BDFED88001CA334 /* Build configuration list for PBXNativeTarget "myfirstiosapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344533CA2BDFED88001CA334 /* Debug */,
+				344533CB2BDFED88001CA334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344533CC2BDFED88001CA334 /* Build configuration list for PBXNativeTarget "myfirstiosappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344533CD2BDFED88001CA334 /* Debug */,
+				344533CE2BDFED88001CA334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		344533CF2BDFED88001CA334 /* Build configuration list for PBXNativeTarget "myfirstiosappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344533D02BDFED88001CA334 /* Debug */,
+				344533D12BDFED88001CA334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3445339D2BDFED85001CA334 /* Project object */;
+}
