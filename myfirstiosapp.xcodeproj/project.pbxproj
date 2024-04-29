@@ -44,6 +44,7 @@
 		344533BF2BDFED88001CA334 /* myfirstiosappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfirstiosappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		344533C32BDFED88001CA334 /* myfirstiosappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstiosappUITests.swift; sourceTree = "<group>"; };
 		344533C52BDFED88001CA334 /* myfirstiosappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstiosappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		344533D22BDFF2B3001CA334 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		3445339C2BDFED85001CA334 = {
 			isa = PBXGroup;
 			children = (
+				344533D22BDFF2B3001CA334 /* README.md */,
 				344533A72BDFED85001CA334 /* myfirstiosapp */,
 				344533B82BDFED88001CA334 /* myfirstiosappTests */,
 				344533C22BDFED88001CA334 /* myfirstiosappUITests */,
