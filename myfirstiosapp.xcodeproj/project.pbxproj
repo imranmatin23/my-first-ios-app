@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		344533A92BDFED85001CA334 /* myfirstiosappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344533A82BDFED85001CA334 /* myfirstiosappApp.swift */; };
-		344533AB2BDFED85001CA334 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344533AA2BDFED85001CA334 /* ContentView.swift */; };
+		344533AB2BDFED85001CA334 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344533AA2BDFED85001CA334 /* MeetingView.swift */; };
 		344533AD2BDFED87001CA334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344533AC2BDFED87001CA334 /* Assets.xcassets */; };
 		344533B02BDFED87001CA334 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344533AF2BDFED87001CA334 /* Preview Assets.xcassets */; };
 		344533BA2BDFED88001CA334 /* myfirstiosappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344533B92BDFED88001CA334 /* myfirstiosappTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		344533A52BDFED85001CA334 /* myfirstiosapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myfirstiosapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		344533A82BDFED85001CA334 /* myfirstiosappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstiosappApp.swift; sourceTree = "<group>"; };
-		344533AA2BDFED85001CA334 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		344533AA2BDFED85001CA334 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		344533AC2BDFED87001CA334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		344533AF2BDFED87001CA334 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		344533B52BDFED88001CA334 /* myfirstiosappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfirstiosappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				344533A82BDFED85001CA334 /* myfirstiosappApp.swift */,
-				344533AA2BDFED85001CA334 /* ContentView.swift */,
+				344533AA2BDFED85001CA334 /* MeetingView.swift */,
 				344533AC2BDFED87001CA334 /* Assets.xcassets */,
 				344533AE2BDFED87001CA334 /* Preview Content */,
 			);
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				344533AB2BDFED85001CA334 /* ContentView.swift in Sources */,
+				344533AB2BDFED85001CA334 /* MeetingView.swift in Sources */,
 				344533A92BDFED85001CA334 /* myfirstiosappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +424,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myfirstiosapp/Preview Content\"";
+				DEVELOPMENT_TEAM = UR3R36H82N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -452,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"myfirstiosapp/Preview Content\"";
+				DEVELOPMENT_TEAM = UR3R36H82N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
